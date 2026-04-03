@@ -12,8 +12,8 @@
 const CONFIG = {
 
   // ─── Info Umum ───
-  namaSayang: "Sayang",           // Nama yang akan muncul di layar pembuka
-  tanggalUltah: "26 Maret 2025",  // Tanggal ultah
+  namaSayang: "indyyyyy",           // Nama yang akan muncul di layar pembuka
+  tanggalUltah: "28 April 2026",  // Tanggal ultah
 
   // ─── Screen 1: Welcome ───
   welcome: {
@@ -27,7 +27,7 @@ const CONFIG = {
     judul:     "Mini\nScrapbook",
     subjudul:  "for your",
     // Teks di bawah judul
-    keterangan: "Kumpulan momen kita yang selalu aku simpan di dalam hati ✨"
+    keterangan: "Kumpulan momen yang selalu aku simpan di dalam hati ✨"
   },
 
   // ─── Screens 3-5: Foto ───
@@ -37,19 +37,19 @@ const CONFIG = {
       label:         "Foto 1",
       file:          "1.png",        // nama file di assets/images/
       captionAtas:   "Momen pertama...", // teks di atas foto
-      captionBawah:  "Hari itu aku sadar, kamu spesial 💕"
+      captionBawah:  "hari itu aku sadar, kamu spesial 💕"
     },
     {
       label:         "Foto 2",
       file:          "2.png",
-      captionAtas:   "Selalu bersamamu...",
-      captionBawah:  "Setiap momen bersamamu adalah kenangan 🌸"
+      captionAtas:   "always with you...",
+      captionBawah:  "setiap momen bersamamu adalah kenangan 🌸"
     },
     {
       label:         "Foto 3",
       file:          "3.png",
-      captionAtas:   "Dan selamanya...",
-      captionBawah:  "Kamu adalah rumah yang selalu aku rindu 🏡"
+      captionAtas:   "dan seterusnya...",
+      captionBawah:  "kamu adalah rumah yang selalu aku rindu 🏡"
     }
   ],
 
@@ -59,51 +59,51 @@ const CONFIG = {
     // Buka Spotify → pilih lagu/playlist → Share → Embed → copy src URL
     embedUrl: "https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M",
     judul: "Our Playlist",
-    subjudul: "lagu-lagu yang selalu mengingatkanku padamu"
+    subjudul: "lagu-lagu yang aku ingat kepadamu"
   },
 
   // ─── CLIMAX Screen 2: Mini Games (Kuis) ───
   quiz: {
     pertanyaan: [
       {
-        soal:    "Kapan kita pertama kali ketemu?",
+        soal:    "kapan kita pertama kali ketemu?",
         pilihan: ["Agustus", "Februari", "Desember", "April"],
         benar:   0,                        // index jawaban benar (0 = pilihan pertama)
-        pesan:   "Tepat! Kamu ingat 🥺💕"
+        pesan:   "tepat! Kamu ingat"
       },
       {
-        soal:    "Warna favoritku apa?",
+        soal:    "warna favoritku apa?",
         pilihan: ["Merah", "Biru", "Pink", "Ungu"],
         benar:   2,
-        pesan:   "Benar! Kamu kenal aku 🌸"
+        pesan:   "Benar! 100!!!!"
       },
       {
         soal:    "Makanan favoritku?",
         pilihan: ["Pizza", "Sushi", "Mie Ayam", "Nasi Padang"],
         benar:   3,
-        pesan:   "Yes! Kamu hapal 😍"
+        pesan:   "gud job!!"
       }
     ]
   },
 
   // ─── CLIMAX Screen 3: Long Text + Musik ───
   suratCinta: {
-    judul: "Untuk Kamu, Sayang",
+    judul: "untuk kamu ...",
     // Musik yang otomatis nyala — letakkan file di assets/music/
     musik: {
       file:  "our-song.mp3",  // nama file di assets/music/
-      judul: "Our Song 🎵"
+      judul: "Kasih Putih"
     },
     // Isi surat — bisa lebih dari satu paragraf
     isi: [
-      "Hei, kamu. Ya, kamu yang lagi baca ini sekarang.",
-      "Aku mau bilang sesuatu yang udah lama banget aku pendam. Sejak pertama kita ketemu, ada sesuatu yang berbeda. Kamu bikin dunia ini terasa lebih berwarna, lebih hangat, lebih berarti.",
-      "Setiap pagi yang aku bangun, kamu adalah salah satu alasan aku tersenyum. Setiap malam, namamu yang terakhir ada di pikiranku sebelum aku tidur.",
-      "Aku bersyukur banget bisa kenal kamu, bisa ada di sisi kamu, bisa jadi bagian dari hidup kamu.",
-      "Kamu mungkin nggak sadar betapa besar pengaruhmu buat aku. Cara kamu ketawa, cara kamu berbicara, cara kamu peduli — semua itu bikin aku jatuh semakin dalam setiap harinya.",
-      "Di hari ulang tahunmu ini, satu harapanku yang paling tulus: semoga kamu selalu bahagia. Semoga semua mimpi kamu terwujud. Semoga kamu selalu dikelilingi oleh orang-orang yang menyayangimu.",
-      "Dan semoga aku bisa terus ada, menemanimu, mendukungmu, mencintaimu.",
-      "Selamat ulang tahun, Sayang. Kamu layak mendapatkan seluruh kebaikan di dunia ini. 🌸✨"
+      "ASAP.",
+      "ASAP.",
+      "ASAP.",
+      "ASAP",
+      "ASAP.",
+      "ASAP",
+      "ASAP,
+      "Selamat ulang tahun yakkkk. Kamu layak mendapatkan seluruh kebaikan di dunia ini. 🌸✨"
     ]
   },
 
@@ -697,7 +697,7 @@ class ProjectAda {
       this.quizState.score++;
       if (resEl) resEl.textContent = q.pesan;
     } else {
-      if (resEl) resEl.textContent = '✗ Jawaban salah, tapi tetep cute kok 😅';
+      if (resEl) resEl.textContent = '✗ Jawaban salah, parah bgt emg. jht ';
     }
 
     setTimeout(() => {
