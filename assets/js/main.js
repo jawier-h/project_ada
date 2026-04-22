@@ -102,7 +102,7 @@ const CONFIG = {
       "ASAP",
       "ASAP.",
       "ASAP",
-      "ASAP,
+      "ASAP",
       "Selamat ulang tahun yakkkk. Kamu layak mendapatkan seluruh kebaikan di dunia ini. 🌸✨"
     ]
   },
