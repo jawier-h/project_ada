@@ -18,7 +18,7 @@ const CONFIG = {
   // ─── Screen 1: Welcome ───
   welcome: {
     hbd:     "Happy Birthday",
-    tagline: "Semoga di umur 18 ini kamu dapet hobi baru selain nyalahin aku, misalnya nyalahin diri sendiri di depan cermin."
+    tagline: "semoga kamu dapet hobi baru yaaahh selain nyalahin akuu🤭, misalnya nyalahin sendiri di depan cermin gituu hehe"
   },
 
   // ─── Screen 2: Intro ───
@@ -36,20 +36,20 @@ const CONFIG = {
     {
       label:         "Foto 1",
       file:          "1.png",        // nama file di assets/images/
-      captionAtas:   "Momen pertama...", // teks di atas foto
-      captionBawah:  "hari itu aku sadar, kamu spesial 💕"
+      captionAtas:   "jujur, ini so cantik sama imut banget si...", // teks di atas foto
+      captionBawah:  "ㅤ"
     },
     {
       label:         "Foto 2",
       file:          "2.png",
-      captionAtas:   "always with you...",
-      captionBawah:  "setiap momen bersamamu adalah kenangan 🌸"
+      captionAtas:   "ㅤ",
+      captionBawah:  "ㅤ"
     },
     {
       label:         "Foto 3",
       file:          "3.png",
-      captionAtas:   "dan seterusnya...",
-      captionBawah:  "kamu adalah rumah yang selalu aku rindu 🏡"
+      captionAtas:   "ㅤ",
+      captionBawah:  "ㅤ"
     }
   ],
 
@@ -57,19 +57,19 @@ const CONFIG = {
   spotify: {
     // Ganti dengan embed URL dari Spotify:
     // Buka Spotify → pilih lagu/playlist → Share → Embed → copy src URL
-    embedUrl: "https://open.spotify.com/embed/playlist/37i9dQZF1DXcBWIGoYBM5M",
+    embedUrl: "https://open.spotify.com/embed/playlist/37i9dQZF1EJNfBuzfQqD41?",
     judul: "Our Playlist",
-    subjudul: "lagu-lagu yang aku ingat kepadamu"
+    subjudul: "Playlist favorit ini mah"
   },
 
   // ─── CLIMAX Screen 2: Mini Games (Kuis) ───
   quiz: {
     pertanyaan: [
       {
-        soal:    "kapan kita pertama kali ketemu?",
+        soal:    "kapan kita pertama kali mulai berinteraksi?",
         pilihan: ["Agustus", "Februari", "Desember", "April"],
         benar:   0,                        // index jawaban benar (0 = pilihan pertama)
-        pesan:   "tepat! Kamu ingat"
+        pesan:   "Okeh bener"
       },
       {
         soal:    "warna favoritku apa?",
@@ -81,13 +81,13 @@ const CONFIG = {
         soal:    "Makanan favoritku?",
         pilihan: ["Pizza", "Sushi", "Mie Ayam", "Nasi Padang"],
         benar:   3,
-        pesan:   "gud job!!"
+        pesan:   "Gokillll!!!!!"
       }
     ]
   },
 
   // ─── CLIMAX Screen 3: Long Text + Musik ───
-  suratCinta: {
+  LongText: {
     judul: "untuk kamu ...",
     // Musik yang otomatis nyala — letakkan file di assets/music/
     musik: {
@@ -96,14 +96,14 @@ const CONFIG = {
     },
     // Isi surat — bisa lebih dari satu paragraf
     isi: [
-      "ASAP.",
-      "ASAP.",
-      "ASAP.",
-      "ASAP",
-      "ASAP.",
-      "ASAP",
-      "ASAP",
-      "Selamat ulang tahun yakkkk. Kamu layak mendapatkan seluruh kebaikan di dunia ini. 🌸✨"
+      "Selamat ulang tahun ya sayangg💞. Akhirnya kamu nambah umur jugaa. Aku cuma mau bilang kalo kamu itu hebat dan kamu itu layak bangett buat dapetin semua kebahagiaan di dunia ini. Makasih yaaa udah bertahan dan berusaha sejauh inii,akuu bangga bangettt",
+      "Aku tau belakangan ini kamu lagi pusing-pusingnya mikirin UTBK. Pesanku cuma satu. bagaimanapun hasilnya nati aku harap kamuu sisakan sedikit ruang ikhlas di hati kamu ya sayangg.. kamu udah berjuang sejauh ini itu udah keren banget kok sumpahh aku bangga udah ngeliat kamu berjuang sejauh iniii. Aku doakan yang terbaik buat kamuu..semoga nanti pas pengumuman, hasilnya sesuai sama apa yang kamu inginkan yaa. Semoga kamu lolos di kampus yang kamu impian kamu selama ini. Kamu udah usaha semaksimal mungkin, sisanya serahkan aja ke allah",
+      "Tapi aku mau kamu inget kata kata aku ini. misalkan kalo amit amit nanti hasilnya ngga sesuai ekspektasi kamu, aku harap kamu ngga nyalahin diri kamu sendiri ya sayangg, mungkin emang belum rezekinya kamu.. aku percaya kok allah itu maha baik, pasti nanti ada jalan lain buat kamu menggapai apa yang kamu cita citakan nantii percaya dehh. Ptn itu bukan penentu jalan karier hidup kamu kedepannya itu tuh cuma garis start, mau kamu kuliah dimanapun itu mau negeri atau swasta menurutku yang menentukan karier hidup kamu kedepannya yaa gimana kamu nanti selama kuliah ptn atau apapun itu ga ngaruh sama sekalii. Kamu boleh sedih, kamu boleh kecewa tapi tolong jangan berlarut larut ya sayangg kamu kalo lagi ngerasa kayak gitu kamu boleh kabarin aku kapanpun itu yaaa aku bakal ada buat kamuu selagi aku ada waktu pasti aku luangkan waktu aku buat kamu kok😄.",
+      "Kamu itu orang paling tangguh yang aku kenal. Aku bangga lihat cara kamu bawa diri dan cara kamu ngadepin masalah selama ini. Kamu sudah mau beurbah menjadi secure, tidak sia sia selama ini usaha kamu untuk menghilangkan Tetap jadi diri kamu yang apa adanya, karena bagi aku kamu udah sangat lebih dari cukup.",
+      "Makasih ya udah jadi bagian dari hidup aku. Kamu itu salah satu alasan aku buat tetap semangat juga. Aku ngga butuh kamu jadi orang lain, aku cuma mau kamu tetap sehat dan bahagia sama jalan yang kamu pilih.",
+      "Aku harap komitmen kita tetap berjalan, semoga kita bisa berjodoh juga. tenang aku percaya ko kamu setia dan megang komitmen banget. Tapi yang aku minta mungkin tolong cintai dan sayangi aku ya?",
+      "Intinya apapun yang terjadi nanti aku akan ada selalu buat kamu",
+      "Aku cukupkan longtext nya. Sekali lagi aku mau bilang SELAMAT ULANG TAHUN YAAKKKKK ilysm💞✨"
     ]
   },
 
@@ -265,13 +265,8 @@ class ProjectAda {
         ${CONFIG.spotify.judul}
         <span>${CONFIG.spotify.subjudul}</span>
       </div>
-      <div class="spotify-embed-wrap">
-        <iframe 
-          src="${CONFIG.spotify.embedUrl}" 
-          height="232" 
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy"
-        ></iframe>
+      <div class="spotify-embed-wrap" id="spotify-embed-wrap">
+        <!-- iframe di-inject saat masuk screen ini -->
       </div>
       <button class="btn-next" id="btn-spotify-next">Lanjut →</button>
     </div>`;
@@ -294,18 +289,18 @@ class ProjectAda {
   }
 
   buildLongText() {
-    const paragraphs = CONFIG.suratCinta.isi.map(p => `<p>${p}</p>`).join('');
+    const paragraphs = CONFIG.LongText.isi.map(p => `<p>${p}</p>`).join('');
     return `
     <div class="screen screen-longtext" id="screen-longtext">
       ${this.buildBackBtn()}
       <div class="longtext-header">
         <div class="longtext-label">✉️ sebuah surat</div>
-        <div class="longtext-title">${CONFIG.suratCinta.judul}</div>
+        <div class="longtext-title">${CONFIG.LongText.judul}</div>
       </div>
       <div class="music-bar" id="music-bar">
         <span class="music-icon" id="music-icon">🎵</span>
         <div class="music-info">
-          <div class="music-name" id="music-name">${CONFIG.suratCinta.musik.judul}</div>
+          <div class="music-name" id="music-name">${CONFIG.LongText.musik.judul}</div>
           <div class="music-status" id="music-status">Memuat lagu...</div>
         </div>
         <button class="music-toggle" id="music-toggle" title="Play/Pause">▶</button>
@@ -376,7 +371,7 @@ class ProjectAda {
   // ─── Audio Setup ─────────────────────────────────────────
 
   setupAudio() {
-    this.audio = new Audio(`assets/music/${CONFIG.suratCinta.musik.file}`);
+    this.audio = new Audio(`assets/music/${CONFIG.LongText.musik.file}`);
     this.audio.loop = true;
     this.audio.volume = 0.65;
 
@@ -387,7 +382,7 @@ class ProjectAda {
 
     this.audio.addEventListener('error', () => {
       const status = document.getElementById('music-status');
-      if (status) status.textContent = `Taruh lagu di assets/music/${CONFIG.suratCinta.musik.file}`;
+      if (status) status.textContent = `Taruh lagu di assets/music/${CONFIG.LongText.musik.file}`;
       const icon = document.getElementById('music-icon');
       if (icon) icon.textContent = '🎵';
     });
@@ -457,6 +452,7 @@ class ProjectAda {
 
       // Per-screen hooks
       const { id } = SCREEN_ORDER[index];
+      if (id === 'spotify')  this.onEnterSpotify();
       if (id === 'games')    this.initQuiz();
       if (id === 'longtext') this.onEnterLongText();
       if (id === 'flower')   this.onEnterFlower();
@@ -501,6 +497,7 @@ class ProjectAda {
       }
 
       // Per-screen hooks on back
+      if (id === 'spotify') this.onEnterSpotify();
       if (id === 'games') this.initQuiz();
     }, 380);
   }
@@ -511,6 +508,7 @@ class ProjectAda {
       overlay.classList.add('fade-in');
       setTimeout(() => {
         this.showScreen(5); // spotify = index 5
+        this.onEnterSpotify();
         overlay.classList.remove('fade-in');
         overlay.classList.add('fade-out');
         setTimeout(() => overlay.classList.remove('fade-out'), 400);
@@ -643,6 +641,8 @@ class ProjectAda {
 
   initQuiz() {
     this.quizState = { index: 0, score: 0, answered: false };
+    const nextBtn = document.getElementById('btn-games-next');
+    if (nextBtn) nextBtn.style.display = 'none';
     this.renderQuizQuestion();
   }
 
@@ -731,11 +731,34 @@ class ProjectAda {
 
   // ─── Screen Enter Hooks ──────────────────────────────────
 
+  destroySpotifyIframe() {
+    const wrap = document.getElementById('spotify-embed-wrap');
+    if (wrap) wrap.innerHTML = '';
+  }
+
+  createSpotifyIframe() {
+    const wrap = document.getElementById('spotify-embed-wrap');
+    if (!wrap || wrap.querySelector('iframe')) return;
+    const iframe = document.createElement('iframe');
+    iframe.src = CONFIG.spotify.embedUrl;
+    iframe.height = '232';
+    iframe.allow = 'autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture';
+    wrap.appendChild(iframe);
+  }
+
   onEnterLongText() {
+    // Hapus iframe Spotify dari DOM = pasti berhenti total
+    this.destroySpotifyIframe();
+
     // Autoplay audio
     setTimeout(() => {
       this.playAudio();
     }, 800);
+  }
+
+  onEnterSpotify() {
+    // Buat ulang iframe Spotify
+    this.createSpotifyIframe();
   }
 
   onEnterFlower() {
