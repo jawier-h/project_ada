@@ -18,7 +18,7 @@ const CONFIG = {
   // ─── Screen 1: Welcome ───
   welcome: {
     hbd:     "Happy Birthday",
-    tagline: "Happy Birthday! Semoga di umur 18 ini kamu dapet hobi baru selain nyalahin aku, misalnya nyalahin diri sendiri di depan cermin."
+    tagline: "Semoga di umur 18 ini kamu dapet hobi baru selain nyalahin aku, misalnya nyalahin diri sendiri di depan cermin."
   },
 
   // ─── Screen 2: Intro ───
